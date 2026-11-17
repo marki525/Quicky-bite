@@ -1,0 +1,29 @@
+body{
+      margin:0px;
+     padding: 0px;
+}
+#header{
+  background-color: #08519C;
+  margin:0px ;
+  height: 50px;
+  width: 100%;
+  position:fixed;
+  
+}
+#header h3{
+          background-color: #08519C;
+          margin:0px ;
+          position: relative;
+          top:15px;
+}
+#navs{
+  display:flex;
+  justify-content: right;
+  
+}
+.navLink{
+          padding: 5px;
+          color: black;
+          position: relative;
+          bottom: 10px;
+}
