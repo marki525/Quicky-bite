@@ -69,3 +69,7 @@ body{
 .shopListing h5{
    margin: 0px;
 }
+.shopListing img{
+   width: 8vw;
+   height: 100%;
+}
