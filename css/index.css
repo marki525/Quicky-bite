@@ -86,3 +86,19 @@ footer{
 #menu1{
   display: none;
 }
+.info button{
+  background-color: #F59E0B;
+  color: #0F1C2E;
+  height: 2rem;
+  width: 3rem;
+}
+.info img{
+  height: 70%;
+  width: 100%;
+}
+.info{
+  display: flex;
+  gap:3rem;
+  height: 20vh;
+  width: 20vh;
+}
