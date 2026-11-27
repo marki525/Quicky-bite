@@ -98,7 +98,7 @@ footer{
   right:1%;
 }
 .box img{
-  height: 80%;
+  height: 70%;
   width: 100%;
   border-radius: 10px
 }
@@ -109,11 +109,33 @@ position:relative;
 }
 .box{
   background-color:#26476D;
-  height: 40vh;
-  width: 50vw;
-  border-radius: 10px
+  height: 20vw;
+  width: 40vw;
+  border-radius: 10px;
+  margin-top: 1rem;
 }
 .menus{
   display:grid;
   gap:1rem;
+}
+.menusHeader{
+  background-color:  #F59E0B;
+  display: flex;
+  gap:70vw;
+color: #0F1C2E;
+margin: 0;
+}
+.menusHeader h3{
+  color: #0F1C2E;
+
+}
+.navMenu{
+color:#0F1C2E ;
+  display: flex;
+  gap:2rem;
+}
+.navMenu h6{
+  color: #0F1C2E;
+font-size: 1rem;
+margin: 0;
 }
