@@ -1,8 +1,8 @@
 const jollibeeMenu=document.getElementById("jollibeeMenu")
-const jollibeeListing=document.getElementById("jollibee")
+const jollibeeListing=document.getElementById("jollibeeListing")
 
 const macdoMenu=document.getElementById("macdoMenu")
-const macdoMenu=document.getElementById("macdo")
+const macdo=document.getElementById("macdo")
 
 const mangInasalMenu=document.getElementById("mangInasalMenu")
 const mangInasal=document.getElementById("mangInasal")
@@ -22,11 +22,13 @@ const starbucks=document.getElementById("starbucks")
 const banner=document.getElementById("banner")
 const shops=document.getElementById("shops")
 const header=document.getElementById("header")
+const mainMenu=document.getElementById("menu1")
 
-function openMenu(menu){
+function openShopMenu(menu){
+   console.log("clicked")
    menu.style.display="block";
-   header.style.display="block"
-   shops.style.display="block"
-   banner.style.display="block"
+   mainMenu.style.display="none";
    
 }
+
+jollibeeListing.addEventListener("click", () => openShopMenu(jollibeeMenu))
