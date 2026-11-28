@@ -55,6 +55,7 @@ footer{
 
 }
 
+/*banner*/
 #banner img{
    height: 100%;
    width: 50%;
@@ -63,6 +64,8 @@ footer{
 #banner h1{
    font-size: 8vw;
 }
+
+/*shops*/
 #shops{
   display: grid;
   gap:3rem;
@@ -83,15 +86,17 @@ footer{
    width: 8vw;
    height: 100%;
 }
+
+/*menus*/
 #menu1{
   display: none;/*para sa display ng menu1*/
 }
 .priceBtn{
-  background-color: #305b8b;
+  background-color: #3a75b8;
   display: flex;
   gap: 15rem;
   border-radius: 15px;
-  height: 15vh;
+  height: 4rem;
   position: relative;
 }
 
@@ -101,8 +106,8 @@ footer{
   border:none;
   border-radius: 8px;
   margin:0;
-  height: 7dvh;
-  width: 5vw;
+  height: 100%;
+  width: 4rem;
   position:absolute;
   right: 10%;
 }
@@ -112,7 +117,7 @@ footer{
   font-size: 2rem;
 }
 .box img{
-  height: 60%;
+  height: 70%;
   width: 100%;
   border-radius: 10px;
   margin-bottom: 0.5rem;
@@ -127,35 +132,45 @@ flex-direction: column;
 }
 .box{
   background-color:#26476D;
-  height: 20vw;
-  width: 38vw;
+ 
   border-radius: 10px;
   margin-top: 1rem;
+  margin-right: 0;
 }
 .menus{
   display:grid;
-   grid-template-columns: repeat(2, 1fr);
-   grid-template-rows: repeat(2, 1fr);
+  grid-template-columns: repeat(auto-fit, minmax(100px, 300px));
+  grid-auto-rows: minmax(4rem, auto);
   gap:1rem;
 }
+
+/*header sa menu*/
 .menusHeader{
-  background-color:  #F59E0B;
+  background-color:#F59E0B;
   display: flex;
   gap:70vw;
 color: #0F1C2E;
 margin: 0;
+padding: 0;
 }
 .menusHeader h2{
   color: #0F1C2E;
-font-size: 1rem;
+font-size: 2rem;
+padding: 0;
+margin: 0;
 }
+
+/*nav sa header menu*/
 .navMenu{
 color:#0F1C2E ;
   display: flex;
   gap:2rem;
+  padding: 0;
+  margin: 0;
 }
 .navMenu h6{
   color: #0F1C2E;
-font-size: 1rem;
+font-size: 2rem;
 margin: 0;
+padding: 0;
 }
